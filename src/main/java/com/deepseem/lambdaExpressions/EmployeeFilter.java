@@ -8,10 +8,10 @@ public class EmployeeFilter {
     public static void main(String[] args) {
 
         List<Employee> employees = Arrays.asList(
-                new Employee(101, "John", 70000),
-                new Employee(102, "Alex", 90000),
-                new Employee(103, "Bob", 50000),
-                new Employee(104, "David", 80000)
+                new Employee(101, "John", 70000, "IT"),
+                new Employee(102, "Alex", 90000, "HR"),
+                new Employee(103, "Bob", 50000, "IT"),
+                new Employee(104, "David", 80000, "HR")
         );
 
         //Filtering Employees Using Lambda
